@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Hospital Detail | MEDHUB</title>
+</head>
+
+<body>
+    <center>
+        <h2>Upload HOSPITAL DETAILS </h2>
+
+        <table>
+            <form action='hospital-details' method='get' enctype='multipart/form-data'>
+                <tr>
+                    <td>
+                        <label for='hname'>Hospital Name :</label>
+                    </td>
+                    <td> <input type='text' name='hname'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='hemail'>Email :</label>
+                    </td>
+                    <td> <input type='text' name='hemail' id='hemail'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='haddress'>Address :</label>
+                    </td>
+                    <td> <input type='text' name='haddress' id='haddress'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='hcity'>City :</label>
+                    </td>
+                    <td>
+                        <select id='hcity' name='hcity'>
+                        <option value='Indore'>Indore</option>
+                        <option value='Ahmedabad'>Ahmedabad</option>
+                        <option value='Hyderabad'>Hyderabad</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for='css'> Enter Image URL :    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label> </td>
+                    <td> <input type='text' name='himage' id='himage'> </td>
+                </tr>
+        </table>
+        <br>
+        <input type='submit' value='submit'>
+        </form>
+
+    </center>
+</body>
+
+</html>

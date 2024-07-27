@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Search Hospital or Bloodbank | MedHub</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <link rel='stylesheet' href='./css/hbsearch.css'>
+
+</head>
+<header class='site-header'>
+    <nav>
+        <a href='./index.html'><strong>MEDHUB</strong></a>
+        <a href='./index.html'>HOME</a>
+        <a href='./hbsearch.html'>HOSPITAL/BLOODBANK</a>
+        
+        <a href='./dsearch.jsp'>DOCTOR</a>
+        <a href='./about.html'>ABOUT US</a>
+    </nav>
+</header>
+<div class='container'>
+    <div class='left-half'>
+        <form action='hospital-searched' method='get' enctype='multipart/form-data'>
+            <fieldset>
+                <legend>HOSPITAL<img src='./images/hospital-solid.svg'></legend>
+                <div class='double-input'>
+                    <div class='form-input-container'>
+                        <label for='hospitalname'>Hospital Name</label>
+                        <input type='text' id='hospitalname' name='hospitalname' placeholder='hospital-name'>
+                        <label for='hospitalcity'>City</label>
+                        <select id='hospitalcity' name='hospitalcity'>
+                            <option value='Indore'>Indore</option>
+                            <option value='Ahmedabad'>Ahmedabad</option>
+                            <option value='Hyderabad'>Hyderabad</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <button type='submit'>SEARCH</button>
+        </form>
+    </div>
+    <div class='right-half'>
+        <form action='bloodbank-searched' method='get' enctype='multipart/form-data'>
+            <fieldset>
+                <legend>BLOODBANK<img src='./images/blood-drop.png'></legend>
+                <div class='double-input'>
+                    <div class='form-input-container'>
+                        <label for='bloodcity'>City</label>
+                        <select id='bloodcity' name='bloodcity'>
+                            <option value='Indore'>Indore</option>
+                            <option value='Ahmedabad'>Ahmedabad</option>
+                            <option value='Hyderabad'>Hyderabad</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <button type='submit'>SEARCH</button>
+        </form>
+    </div>
+</div>
+<footer>
+    <p>Copyright &#169; MedHub. All Rights Reserved.</p>
+</footer>
+
+</html>

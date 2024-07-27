@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>BloodBank Detail | MEDHUB</title>
+</head>
+
+<body>
+    <center>
+        <h2>Upload BLOODBANK DETAILS </h2>
+
+        <table>
+            <form action='bloodbank-details' method='get' enctype='multipart/form-data'>
+                <tr>
+                    <td>
+                        <label for='bname'>Name :</label>
+                    </td>
+                    <td> <input type='text' name='bname' id='bname'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='bemail'>Email :</label>
+                    </td>
+                    <td> <input type='text' name='bemail' id='bemail'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='baddress'>Address :</label>
+                    </td>
+                    <td> <input type='text' name='baddress' id='baddress'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='city'>City :</label>
+                    </td>
+                    <td>
+                        <select name='bcity' id='bcity'>
+                            <option value='Indore'>Indore</option>
+                            <option value='Ahmedabad'>Ahmedabad</option>
+                            <option value='Hyderabad'>Hyderabad</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for='css'> Enter Image URL :    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label> </td>
+                    <td> <input type='text' name='bimage' id='bimage'> </td>
+                </tr>
+        </table>
+        <br>
+        <input type='submit' value='submit'>
+        </form>
+
+    </center>
+</body>
+
+</html>

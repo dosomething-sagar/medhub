@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Doctor Detail | MEDHUB</title>
+</head>
+
+<body>
+    <center>
+        <h2>Upload DOCTOR DETAILS </h2>
+
+        <table>
+            <form action='doctor-details' method='post' enctype='multipart/data-type'>
+                <tr>
+                    <td>
+                        <label for='dname'>Name :</label>
+                    </td>
+                    <td> <input type='text' name='dname' id='dname'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='demail'>Email :</label>
+                    </td>
+                    <td> <input type='text' name='demail' id='demail'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='daddress'>Address :</label>
+                    </td>
+                    <td> <input type='text' name='daddress' id='daddress'> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='dcity'>City :</label>
+                    </td>
+                    <td>
+                        <select id='dcity' name='dcity'>
+                            <option value='Indore'>Indore</option>
+                            <option value='Ahmedabad'>Ahmedabad</option>
+                            <option value='Hyderabad'>Hyderabad</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='dcategory'>Specialist :</label>
+                    </td>
+                    <td>
+                        <select id='dcategory' name='dcategory'>
+                          <option value='Cardiologist'>Cardiologist </option>
+                          <option value='Pediatrician'>Pediatrician</option>
+                          <option value='Gynecologist'> Gynecologist </option>
+                          <option value='General Medicine'>General Medicine</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for='css'> Enter Image URL :    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label> </td>
+                    <td> <input type='text' name='dimage' id='dimage'> </td>
+                </tr>
+             </table>
+            <br>
+        <input type='submit' value='submit'>
+        </form>
+           
+
+    </center>
+</body>
+
+</html>

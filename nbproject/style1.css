@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-logo1{
+    height: 60px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 1.3rem;    
+}
+
+a:hover{
+    color:#83b5f7;
+}
+
+header{
+    padding: 5px 2rem;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    box-shadow: 0px 1px 10px;
+    background-color: #3d5a80;
+}
+
+.about-navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    position: fixed;
+    top: 20;
+     width: 100%;
+    
+         
+}
+
+.about-navbar .about-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-navbar .about-link {
+    display: flex;
+    gap:5rem;
+    margin-bottom: 28px;
+}
+
+.box{
+    border: 2px solid #050b7c;
+    height: 129px;
+    width: auto;
+    margin-top: 60px;
+    background-image:  url("medhub1/img/blue-background.avif");
+    background-position: center;
+    background-size: cover;
+}
+.txt{
+    color: aliceblue;
+    margin-left: 400px;
+    margin-top: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:600%;
+}
+
+.about-img{
+    width: 145px;
+    height: 136px;
+    margin-left: 770px;
+    margin-top: -119px;
+}
+body{
+    
+    height: 100vh;
+}
+.logo1{
+    height: 50px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.3rem;    
+}
+
+a:hover{
+    color:rgb(2, 2, 107);
+}
+
+header{
+    
+    padding: 5px 2rem;
+    display: block;
+    position: fixed;
+    top: 0;
+     width: 100%;
+     height: 71px;
+     background-color:#3d5a80;
+}
+
+.navbar{
+    width: 100%;
+    height: 66px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    position: fixed;
+    top: 0;
+     width: 100%;
+    
+         
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .link {
+    display: flex;
+    gap:5rem;
+}
+
+.box{
+    border: 2px solid #050b7c;
+    height: 129px;
+    width: auto;
+    margin-top: 54px;
+    background-image:  url("medhub1/img/blue-background.avif");
+    background-position: center;
+    background-size: cover;
+    
+}
+.box:hover{
+    background-image: url("medhub1/img/background3.avif");
+    background-position: center;
+    background-size: cover;
+}
+.txt{
+    color: aliceblue;
+    margin-left: 400px;
+    margin-top: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:600%;
+}
+.about-one{
+    height: 100vh;
+    background-color: #98c1d9;
+}
+.about-two{
+    height: 200vh;
+    background-image: url("medhub1/img/section5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
